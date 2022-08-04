@@ -12,6 +12,6 @@ defineComponent({
 })
 
 onReady(() => {
-  uni.navigateTo({ url: '/pages/index/index' })
+  uni.switchTab({ url: '/pages/index/index' })
 })
 </script>

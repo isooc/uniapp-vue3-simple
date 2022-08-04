@@ -1,4 +1,3 @@
-import Cookies from 'js-cookie'
 const TokenKey = 'lz_token'
 
 const token = 'ea28c9d40e3e4a43bf5746de7ae4b9bd'
