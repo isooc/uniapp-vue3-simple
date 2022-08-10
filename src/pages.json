@@ -9,7 +9,7 @@
         {
             "path": "pages/index/index",
             "style": {
-                "navigationBarTitleText": "首页"
+                "navigationBarTitleText": "南山民企之窗"
             }
         },
         {
@@ -32,23 +32,42 @@
                 "pagePath": "pages/index/index",
                 "iconPath": "static/tabbar/index.png",
                 "selectedIconPath": "static/tabbar/indexSelected.png",
-                "text": "首页"
+                "text": "门户"
             },
             {
-                "pagePath": "finance/index/index",
+                "pagePath": "my/index/index",
                 "iconPath": "static/tabbar/class.png",
                 "selectedIconPath": "static/tabbar/classSelected.png",
-                "text": "财务"
+                "text": "我的"
             }
         ]
     },
-    "subPackages": [{
-        "root": "finance",
-        "pages": [{
-            "path": "index/index",
-            "style": {
-                "navigationBarTitleText": "财务"
-            }
-        }]
-    }]
+    "subPackages": [
+        {
+            "root": "my",
+            "pages": [{
+                "path": "index/index",
+                "style": {
+                    "navigationBarTitleText": "我的"
+                }
+            }]
+        },
+        {
+            "root": "test",
+            "pages": [
+                {
+                    "path": "index/index",
+                    "style": {
+                        "navigationBarTitleText": "测试"
+                    }
+                },
+                {
+                    "path": "datePicker/index",
+                    "style": {
+                        "navigationBarTitleText": "日期选择组件"
+                    }
+                }
+            ]
+        }
+    ]
 }

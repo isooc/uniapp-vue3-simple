@@ -1,0 +1,30 @@
+
+.search {
+	display: flex;
+	align-items: center;
+	height: 60rpx;
+	padding: 0 20rpx;
+	text-align: left;
+	border-radius: 100rpx;
+	// border: solid 1rpx #c7c7c7;
+	background: #F8F8F8;
+	font-size: 26rpx;
+	
+	.icon {
+		display: flex; // 微信小程序居中问题
+	}
+
+	.input-content {
+		width: 100%;
+		height: 80rpx;
+		line-height: 80rpx;
+		padding: 0 10rpx;
+		
+		-webkit-appearance: none;    // 苹果手机内阴影的问题
+
+		&::-webkit-input-placeholder {
+			color: #AEAEAE;
+			font-size: 26rpx;
+		}
+	}
+}

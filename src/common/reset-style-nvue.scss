@@ -4,6 +4,8 @@ html {
 }
 *,*::before,*::after {
   box-sizing: inherit;
+  // -ms-overflow-style: scrollbar;
+  // -webkit-tap-highlight-color: transparent;
 }
 //h1 h2 h3 重置
 h1,h2,h3,h4,h5,h6{
@@ -17,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
 body {
   font-size: 16px;
   //color: #1d1007;
-  line-height:1
+  line-height:1;
 }
 
 .clearfix {

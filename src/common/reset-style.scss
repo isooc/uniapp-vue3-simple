@@ -6,3 +6,10 @@ text view {
 	line-height: 1;
 	font-size: 32rpx;
 }
+
+::-webkit-scrollbar {
+  display: none;
+	width: 0 !important;
+	height: 0 !important;
+	background: transparent
+}
